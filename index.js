@@ -24,7 +24,7 @@ app.use(
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("WELCOME TO CHAT APP");
+  res.send("WELCOME TO GALAXY CHAT APP");
 });
 
 // app.get("/api/chat", (req, res) => {
